@@ -1,0 +1,188 @@
+.home-page-child,
+.home-page-item {
+  position: absolute;
+  margin: 0 !important;
+  filter: blur(50px);
+  border-radius: 50%;
+  background: radial-gradient(50% 50%at 50% 50%, #ff95e8, #fdf1ff);
+}
+.home-page-child {
+  height: 1369px;
+  width: 1369px;
+  top: -857px;
+  left: -707px;
+}
+.home-page-item {
+  height: 1484px;
+  width: 1487px;
+  right: -744px;
+  bottom: -742px;
+}
+.ollcf {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 78px;
+  z-index: 1;
+}
+.about,
+.contact-us,
+.home,
+.strands {
+  position: relative;
+  display: inline-block;
+  min-width: 35px;
+}
+.about,
+.contact-us,
+.strands {
+  min-width: 37px;
+}
+.contact-us,
+.strands {
+  min-width: 47px;
+}
+.contact-us {
+  min-width: 66px;
+  white-space: nowrap;
+}
+.frame-wrapper,
+.home-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.home-parent {
+  margin: 0;
+  width: 545px;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-violet);
+  font-family: var(--font-inter);
+}
+.frame-wrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.white-line-child {
+  align-self: stretch;
+  height: 5px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-group,
+.white-line {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.white-line {
+  width: 116px;
+  height: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.frame-group {
+  width: 586px;
+  gap: 10px;
+  max-width: 100%;
+}
+.our-lady-of {
+  margin: 0;
+  width: 687px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.our-lady-of-lourdes-college-fo-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent,
+.home-page {
+  display: flex;
+  justify-content: flex-start;
+  font-family: var(--font-inter);
+}
+.frame-parent {
+  width: 962px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 368px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 55px;
+  color: #f6a7e0;
+}
+.home-page {
+  width: 100%;
+  position: relative;
+  background-color: #fbe0ff;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 32px 46px 445px;
+  box-sizing: border-box;
+  gap: 252px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 24px;
+  color: var(--color-violet);
+}
+@media screen and (max-width: 1325px) {
+  .home-page {
+    flex-wrap: wrap;
+    gap: 126px;
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .frame-parent {
+    gap: 184px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .home-parent {
+    display: none;
+  }
+  .our-lady-of {
+    font-size: 44px;
+  }
+  .frame-parent {
+    gap: 92px;
+  }
+  .home-page {
+    gap: 63px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ollcf {
+    font-size: 19px;
+  }
+  .our-lady-of {
+    font-size: 33px;
+  }
+  .home-page {
+    gap: 31px; }
+  }

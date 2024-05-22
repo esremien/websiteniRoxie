@@ -1,0 +1,382 @@
+.strands-page-child,
+.strands-page-item {
+  position: absolute;
+  margin: 0 !important;
+  filter: blur(50px);
+  border-radius: 50%;
+  background: radial-gradient(50% 50%at 50% 50%, #ff95e8, #fdf1ff);
+}
+.strands-page-child {
+  width: 450px;
+  height: 429px;
+  top: -215px;
+  right: -225px;
+}
+.strands-page-item {
+  width: 1487px;
+  height: 1484px;
+  bottom: -663px;
+  left: -417px;
+}
+.white-line-child {
+  align-self: stretch;
+  height: 5px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.white-line {
+  position: absolute;
+  top: 25px;
+  left: 1024px;
+  width: 116px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.ollcf {
+  position: relative;
+  display: inline-block;
+  min-width: 78px;
+  white-space: nowrap;
+}
+.about,
+.contact-us,
+.home,
+.strands {
+  position: relative;
+  display: inline-block;
+  min-width: 35px;
+}
+.about,
+.contact-us,
+.strands {
+  min-width: 37px;
+}
+.contact-us,
+.strands {
+  min-width: 47px;
+}
+.contact-us {
+  min-width: 66px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.navigation,
+.ollcf-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navigation {
+  margin: 0;
+  justify-content: flex-start;
+  gap: 120px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-violet);
+  font-family: var(--font-inter);
+}
+.ollcf-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1292px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.content {
+  width: 1312px;
+  height: 98.8px;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: var(--color-violet);
+  font-family: var(--font-inter);
+}
+.senior-strand-offering {
+  margin: 0;
+  height: 45.5px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+}
+.senior-strand {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl) 36.7px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.academic-track {
+  position: relative;
+  font-weight: 800;
+  z-index: 1;
+}
+.track-one {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 19.5px 0 0;
+}
+.technical-vocational-livelihoo {
+  width: 416px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.track-container,
+.track-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.track-list {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.track-container {
+  width: 1244px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) var(--padding-11xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-plum);
+  font-family: var(--font-inter);
+}
+.accountancy-business-and {
+  margin: 0;
+}
+.accountancy-business-and-container {
+  margin-bottom: -8px;
+  height: 117px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.option-items-one {
+    width: 472px;
+    height: 109px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .humanities-and-social {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .option-items-one1 {
+    width: 472px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 31px 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .science-technology-engineerin {
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+  }
+  .option-items-one-parent {
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    debug_commit: bf4bc93;
+    max-width: 100%;
+  }
+  .home-economics-he {
+    margin: 0;
+  }
+  .home-economics-he-container,
+  .information-and-communication {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .home-economics-he-container {
+    width: 452px;
+    height: 78px;
+  }
+  .information-and-communication {
+    width: 560px;
+  }
+  .caregiving {
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+  }
+  .information-and-communication-parent {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 33px;
+  }
+  .home-economics-he-parent,
+  .information-and-communication-parent,
+  .options-list,
+  .strand-options {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .home-economics-he-parent {
+    width: 640px;
+    flex-direction: column;
+    gap: 2px;
+    flex-shrink: 0;
+    debug_commit: bf4bc93;
+  }
+  .options-list,
+  .strand-options {
+    flex-direction: row;
+  }
+  .options-list {
+    width: 1377px;
+    gap: 167px;
+  }
+  .strand-options {
+    padding: 0 0 0 var(--padding-mid);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .general-academic-strand {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .general-strand,
+  .strands-page {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .general-strand {
+    width: 486px;
+    flex-direction: row;
+    padding: 0 var(--padding-mid);
+    max-width: 100%;
+    font-size: var(--font-size-13xl);
+    color: var(--color-white);
+  }
+  .strands-page {
+    position: relative;
+    background-color: #fbe0ff;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 32px 0 205px 46px;
+    gap: 31px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 48px;
+    color: var(--color-plum);
+    font-family: var(--font-inter);
+}
+@media screen and (max-width: 1425px) {
+  .options-list {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .options-list {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .senior-strand-offering {
+    font-size: 38px;
+  }
+  .academic-track,
+  .technical-vocational-livelihoo {
+    font-size: var(--font-size-7xl);
+  }
+  .track-list {
+    flex-wrap: wrap;
+  }
+  .accountancy-business-and-container,
+  .caregiving,
+  .home-economics-he-container,
+  .humanities-and-social,
+  .information-and-communication,
+  .science-technology-engineerin {
+    font-size: var(--font-size-7xl);
+  }
+  .information-and-communication-parent {
+    gap: 16px;
+  }
+  .options-list {
+    flex-wrap: wrap;
+    gap: 83px;
+  }
+  .general-academic-strand {
+    font-size: var(--font-size-7xl);
+  }
+  .strands-page {
+    gap: 15px;
+    padding-left: 23px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .senior-strand-offering {
+    font-size: 29px;
+  }
+  .academic-track,
+  .accountancy-business-and-container,
+  .caregiving,
+  .home-economics-he-container,
+  .humanities-and-social,
+  .information-and-communication,
+  .science-technology-engineerin,
+  .technical-vocational-livelihoo {
+    font-size: var(--font-size-lgi);
+}
+.options-list {
+  flex-wrap: wrap;
+  gap: 42px;
+}
+.general-academic-strand {
+  font-size: var(--font-size-lgi);
+}
+}

@@ -1,0 +1,289 @@
+.contact-page-child {
+    width: 1487px;
+    height: 1484px;
+    position: absolute;
+    margin: 0 !important;
+    top: calc(50% - 742px);
+    right: -743px;
+    filter: blur(50px);
+    border-radius: 50%;
+    background: radial-gradient(50% 50%at 50% 50%, #ff95e8, #fdf1ff);
+  }
+  .white-line-child {
+    align-self: stretch;
+    height: 5px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .white-line {
+    position: absolute;
+    top: 25px;
+    left: 1201px;
+    width: 116px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .ollcf {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 78px;
+    white-space: nowrap;
+  }
+  .about,
+  .contact-us,
+  .home,
+  .strands {
+    position: relative;
+    display: inline-block;
+    min-width: 35px;
+    z-index: 1;
+  }
+  .about,
+  .contact-us,
+  .strands {
+    min-width: 37px;
+  }
+  .contact-us,
+  .strands {
+    min-width: 47px;
+  }
+  .contact-us {
+    min-width: 66px;
+    white-space: nowrap;
+  }
+  .home-parent,
+  .navigation {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+    color: var(--color-violet);
+    font-family: var(--font-inter);
+  }
+  .home-parent {
+    justify-content: flex-start;
+    gap: 120px;
+    text-align: center;
+    font-size: var(--font-size-xs);
+  }
+  .navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1292px;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: 24px;
+  }
+  .white-line-parent {
+    width: 1317px;
+    height: 45px;
+    position: relative;
+    max-width: 100%;
+  }
+  .contact-information {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 900;
+    font-family: inherit;
+  }
+  .contact-information-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 30px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .email-address,
+  .informationollcfgmailcom {
+    margin: 0;
+    position: relative;
+    font-family: inherit;
+  }
+  .email-address {
+    width: 416px;
+    font-size: inherit;
+    font-weight: 800;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .informationollcfgmailcom {
+    font-size: var(--font-size-29xl);
+    font-weight: 700;
+    color: var(--color-white);
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .info-labels-values {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .contact-number {
+    margin: 0;
+    width: 416px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 800;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .b {
+    position: relative;
+    font-size: var(--font-size-29xl);
+    color: var(--color-white);
+  }
+  .info-labels-values1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .httpsollcfeduph,
+  .website {
+    margin: 0;
+    position: relative;
+    font-family: inherit;
+  }
+  .website {
+    width: 416px;
+    font-size: inherit;
+    font-weight: 800;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .httpsollcfeduph {
+    font-size: var(--font-size-29xl);
+    font-weight: 700;
+    color: var(--color-white);
+  }
+  .info-labels-values2 {
+    flex-direction: column;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .contact-page,
+  .info-columns,
+  .info-columns-wrapper,
+  .info-labels-values2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.info-columns {
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.contact-page,
+.info-columns-wrapper {
+  box-sizing: border-box;
+}
+.info-columns-wrapper {
+  flex-direction: row;
+  padding: 0 40px;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.contact-page {
+  width: 100%;
+  position: relative;
+  background-color: #fbe0ff;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 32px 46px 297px;
+  gap: 80.5px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-plum);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .contact-page {
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .contact-information {
+    font-size: var(--font-size-19xl);
+  }
+  .email-address {
+    font-size: var(--font-size-7xl);
+  }
+  .informationollcfgmailcom {
+    font-size: var(--font-size-19xl);
+  }
+  .contact-number {
+    font-size: var(--font-size-7xl);
+  }
+  .b {
+    font-size: var(--font-size-19xl);
+  }
+  .website {
+    font-size: var(--font-size-7xl);
+  }
+  .httpsollcfeduph {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .info-columns {
+    gap: var(--gap-xl);
+  }
+  .contact-page {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact-information {
+    font-size: var(--font-size-10xl);
+  }
+  .email-address {
+    font-size: var(--font-size-lgi);
+  }
+  .informationollcfgmailcom {
+    font-size: var(--font-size-10xl);
+  }
+  .contact-number {
+    font-size: var(--font-size-lgi);
+  }
+  .b {
+    font-size: var(--font-size-10xl);
+  }
+  .website {
+    font-size: var(--font-size-lgi);
+  }
+  .httpsollcfeduph {
+    font-size: var(--font-size-10xl);
+  }
+  .contact-page {
+    gap: var(--gap-xl);
+  }
+}
